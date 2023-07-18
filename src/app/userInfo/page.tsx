@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import style from "./page.module.scss";
+
 import { useRouter } from "next/navigation";
 function User() {
   const router = useRouter();
@@ -36,8 +36,8 @@ function User() {
   };
   return (
     <div className="page__container">
-      <p className={style.pageInfo}>Your Details</p>
-      <p className={style.head}> Let us know you</p>
+      <p>Your Details</p>
+      <p> Let us know you</p>
     </div>
   );
 }
